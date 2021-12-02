@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a02_nvsv_5bhif_2022_engelhardt_gui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.02_NVSV_5BHIF_2022_Engelhardt_GUI">
+        <activity
+            android:name=".AttractionsOverview"
+            android:exported="false" />
+        <activity
+            android:name=".CitiesOverview"
+            android:exported="false" />
+        <activity
+            android:name=".PrefactureList"
+            android:exported="false" />
+        <activity
+            android:name=".SubRegions"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
